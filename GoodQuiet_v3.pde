@@ -85,10 +85,10 @@ void setup()
   //twitter things
   
     ConfigurationBuilder cb = new ConfigurationBuilder();
-    cb.setOAuthConsumerKey("Ks3ChGeXqbnmbWJElElFu21mi");
-    cb.setOAuthConsumerSecret("b5zqnwGQZLx7aKMFQal0CHnsEGSdQHkCqp0ptvJ0AreLgUCd2n");
-    cb.setOAuthAccessToken("42438721-GsQCmniKQsyG2a2LTwgevj39iR7EJ7VpJjZWXm1mt");
-    cb.setOAuthAccessTokenSecret("QvjGI5u8M4oRmwaDiR6dM33RU45bnv0rdH2qRUvIrX8a3");
+    cb.setOAuthConsumerKey("*");
+    cb.setOAuthConsumerSecret("*");
+    cb.setOAuthAccessToken("*");
+    cb.setOAuthAccessTokenSecret("*");
 
     TwitterFactory tf = new TwitterFactory(cb.build());
 
